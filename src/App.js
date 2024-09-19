@@ -53,8 +53,8 @@ function App() {
       </div>
 
       <div className='container'>
-        <button>
-           <img src={image} width='45px' alt='search' onClick={finalSearch}/>
+        <button onClick={finalSearch}>
+           <img src={image} width='45px' alt='search'/>
         </button>
       </div>
        
