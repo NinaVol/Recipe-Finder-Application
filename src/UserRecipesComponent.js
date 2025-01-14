@@ -7,7 +7,7 @@ function UserRecipesComponent({label,image,ingredients, calories}) {
           <h2>{label}</h2>
         </div>
         <div className="container">
-          <img src={image} alt='dish'/>
+          <img src={image} alt='dish' width='200px'/>
         </div>
         <div className="container">         
            <ul>
