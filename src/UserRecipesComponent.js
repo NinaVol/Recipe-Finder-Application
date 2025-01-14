@@ -11,7 +11,7 @@ function UserRecipesComponent({label,image,ingredients, calories}) {
         </div>
         <div className="container">         
            <ul>
-            {ingredients.map((ingredient, index) => (
+            {Array.isArray(ingredients) && ingredients.map((ingredient, index) => (
                 <li key={index}>
                     <img src={gloves} alt='glove' width='30px'/>
                     {ingredient}
